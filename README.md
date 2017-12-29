@@ -1,4 +1,4 @@
 # putput-hotels-demo
-AngularJS demo App to showing hotels info with language options
+Basic AngularJS demo App to showing hotels info with language options
 ---
-<img src="https://thumbs.gfycat.com/LikableUnknownGourami-size_restricted.gif" width="500" height="auto" />
+<img src="https://thumbs.gfycat.com/LikableUnknownGourami-size_restricted.gif" width="600" height="auto" />

@@ -1,0 +1,12 @@
+<h1 translate="WELCOME_MESSAGE" class="text-center"></h1>
+<p class="alert alert-success text-center" role="alert">
+  <strong>{{ hotels.length }}</strong> <span translate="RESULT_MESSAGE"></span>
+</p>
+<div class="list-group" ng-controller="HomeController">
+  <a ng-repeat="hotel in hotels" href="#!/detail/{{ hotel.id }}" class="list-group-item text-center">
+    {{ hotel.name }}
+    <i>
+      <span class="badge">+ <span translate="ITEM_INFO"></span></span>
+    </i>
+  </a>
+</div>
